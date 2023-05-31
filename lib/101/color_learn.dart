@@ -8,7 +8,8 @@ class ColorLearn extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Container(
-        color: Theme.of(context).colorScheme.error,
+        // color: Theme.of(context).colorScheme.error,
+        color: ColorsItems.sulu,
         child: const Text('data'),
       ),
     );
