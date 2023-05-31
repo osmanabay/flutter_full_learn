@@ -33,9 +33,7 @@ class StaltessLearn extends StatelessWidget {
 }
 
 class _Customcontainer extends StatelessWidget {
-  const _Customcontainer({
-    super.key,
-  });
+  const _Customcontainer();
 
   @override
   Widget build(BuildContext context) {

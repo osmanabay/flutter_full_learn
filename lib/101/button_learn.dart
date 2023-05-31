@@ -27,7 +27,7 @@ class ButtonLearn extends StatelessWidget {
               // servise istek at
               // sayfanın rengini düzenle
             },
-            child: Icon(Icons.add)),
+            child: const Icon(Icons.add)),
         OutlinedButton(
             style: OutlinedButton.styleFrom(
                 backgroundColor: Colors.red,
