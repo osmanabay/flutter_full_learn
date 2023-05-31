@@ -6,6 +6,8 @@ import 'package:flutter_full_learn/101/container_sized_box_learn.dart';
 import 'package:flutter_full_learn/101/scaffold_learn.dart';
 import 'package:flutter_full_learn/101/text_learn_view.dart';
 
+import '101/icon_learn.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -23,10 +25,10 @@ class MyApp extends StatelessWidget {
           appBarTheme: const AppBarTheme(
         centerTitle: true,
         systemOverlayStyle: SystemUiOverlayStyle.light,
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.transparent,
         elevation: 0,
       )),
-      home: const AppBarLearnView(),
+      home: IconLearnView(),
     );
   }
 }
