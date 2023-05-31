@@ -3,14 +3,15 @@ import 'package:flutter/material.dart';
 class StaltessLearn extends StatelessWidget {
   const StaltessLearn({super.key});
 
+  final String text2 ='Osman';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
       body: Column(
         children: [
-          const TitleTextWidget(
-            text: 'osman',
+          TitleTextWidget(
+            text: text2,
           ),
           const TitleTextWidget(
             text: 'osman2',
