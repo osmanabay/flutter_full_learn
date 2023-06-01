@@ -34,5 +34,5 @@ class PngImage extends StatelessWidget {
 }
 
 class ImageItems {
-  final String appleWithBook = 'assets/appleBook.jpg';
+  final String appleWithBook = 'assets/png/appleBook.png';
 }

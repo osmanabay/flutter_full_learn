@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '101/card_learn.dart';
 import '101/color_learn.dart';
-import '101/image_learn.dart';
+import 'demos/note_demos_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +26,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.transparent,
         elevation: 0,
       )),
-      home: const ImageLearn(),
+      home: const NoteDemos(),
     );
   }
 }
