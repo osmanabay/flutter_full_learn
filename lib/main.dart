@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '101/color_learn.dart';
-import 'demos/note_demos_view.dart';
+import '101/list_tile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,6 +18,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
+        listTileTheme: const ListTileThemeData(contentPadding: EdgeInsets.zero),
+        progressIndicatorTheme: const ProgressIndicatorThemeData(color: Colors.white),
         // ignore: deprecated_member_use
         errorColor: ColorsItems.sulu,
           appBarTheme: const AppBarTheme(
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.transparent,
         elevation: 0,
       )),
-      home: const NoteDemos(),
+      home: const ListTileLearn(),
     );
   }
 }

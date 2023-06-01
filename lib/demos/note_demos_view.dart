@@ -39,7 +39,6 @@ class NoteDemos extends StatelessWidget {
 
 class _CreateButton extends StatelessWidget {
   const _CreateButton({
-    super.key,
     required String createNote,
   }) : _createNote = createNote;
 
