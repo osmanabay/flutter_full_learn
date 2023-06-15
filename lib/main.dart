@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '101/color_learn.dart';
-import '101/text_field_learn.dart';
+import '202/service/service_learn_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,6 +18,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
+          tabBarTheme: const TabBarTheme(
+              labelColor: Colors.white, unselectedLabelColor: Colors.red, indicatorSize: TabBarIndicatorSize.label),
           listTileTheme: const ListTileThemeData(contentPadding: EdgeInsets.zero),
           progressIndicatorTheme: const ProgressIndicatorThemeData(color: Colors.white),
           // ignore: deprecated_member_use
@@ -38,7 +40,7 @@ class MyApp extends StatelessWidget {
             backgroundColor: Colors.transparent,
             elevation: 0,
           )),
-      home: const TextFieldLearn(),
+      home: const ServiceLearn(),
     );
   }
 }

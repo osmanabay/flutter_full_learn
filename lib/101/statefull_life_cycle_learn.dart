@@ -13,7 +13,6 @@ class _StatefullLifeCycleLearnState extends State<StatefullLifeCycleLearn> {
 
   @override
   void didChangeDependencies() {
-    // TODO: implement didChangeDependencies
     print('c');
   }
 
@@ -39,7 +38,6 @@ class _StatefullLifeCycleLearnState extends State<StatefullLifeCycleLearn> {
 
   @override
   void dispose() {
-    // TODO: implement dispose
     super.dispose();
     _message = '';
   }
